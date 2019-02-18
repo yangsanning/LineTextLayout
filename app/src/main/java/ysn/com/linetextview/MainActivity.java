@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         test1.post(new Runnable() {
             @Override
             public void run() {
-                test1.setTextView("很多很多和华东数控单独看那时的你卡上的那颗那肯定是你看书看得");
+                test1.setText("很多很多和华东数控单独看那时的你卡上的那颗那肯定是你看书看得");
             }
         });
 
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         test1.post(new Runnable() {
             @Override
             public void run() {
-                test2.setTextView("很多很多和华东数控得");
+                test2.setText("很多很多和华东数控得");
             }
         });
     }

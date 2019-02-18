@@ -29,7 +29,7 @@ public class LineTextLayout extends LinearLayout {
         super(context, attrs, defStyleAttr);
     }
 
-    public void setTextView(CharSequence text) {
+    public void setText(CharSequence text) {
         if (getOrientation() == LinearLayout.HORIZONTAL) {
             TextView textView = null;
             int maxWidth = getWidth();
